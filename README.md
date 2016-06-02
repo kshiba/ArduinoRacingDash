@@ -1,4 +1,9 @@
 ##Arduino Racing Dashboard
+**Modified from Original Version:** v2.1.5 -Tested for iRacing
+
+Update iRacingSdkWrapper and Fixed iRSLI to compiled with the latest version..
+Added Teensy and ili9341c LCD Scketch.
+
 **Latest Version:** v2.1.5 - Tested for Asseto Corsa v1.3
 
 Dashboard code for TM1638 module linked to an Arduino, support for Asseto Corsa and iRacing currently
