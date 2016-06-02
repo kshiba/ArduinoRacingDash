@@ -28,3 +28,16 @@ E:\Games\Apps\ArduinoDash\ArduinoDash\iRacingSLI\src\iRacingSLI\bin\Release\Yaml
 E:\Games\Apps\ArduinoDash\ArduinoDash\iRacingSLI\src\iRacingSLI\bin\Release\iRacingSdkWrapper.pdb
 E:\Games\Apps\ArduinoDash\ArduinoDash\iRacingSLI\src\iRacingSLI\bin\Release\iRSDKSharp.pdb
 E:\Games\Apps\ArduinoDash\ArduinoDash\iRacingSLI\src\iRacingSLI\bin\Release\YamlDotNet.pdb
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\bin\Release\iRacingSLI.exe.config
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\obj\Release\iRacingSLI.exe
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\obj\Release\iRacingSLI.pdb
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\obj\Release\iRacingSLI.iRacingSLI.resources
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\obj\Release\iRacingSLI.Properties.Resources.resources
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\obj\Release\iRacingSLI.csproj.GenerateResource.Cache
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\bin\Release\iRacingSLI.exe
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\bin\Release\iRacingSLI.pdb
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\bin\Release\iRacingSdkWrapper.dll
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\bin\Release\iRSDKSharp.dll
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\bin\Release\iRacingSdkWrapper.pdb
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\bin\Release\iRSDKSharp.pdb
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\obj\Release\iRacingSLI.csprojResolveAssemblyReference.cache

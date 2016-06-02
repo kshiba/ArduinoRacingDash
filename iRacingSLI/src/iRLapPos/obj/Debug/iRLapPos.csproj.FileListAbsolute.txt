@@ -1,0 +1,13 @@
+C:\Users\k_shiba\Downloads\iRacingSdkWrapper-master\iRLapPos\bin\Debug\iRLapPos.exe.config
+C:\Users\k_shiba\Downloads\iRacingSdkWrapper-master\iRLapPos\bin\Debug\iRLapPos.exe
+C:\Users\k_shiba\Downloads\iRacingSdkWrapper-master\iRLapPos\bin\Debug\iRLapPos.pdb
+C:\Users\k_shiba\Downloads\iRacingSdkWrapper-master\iRLapPos\bin\Debug\iRacingSdkWrapper.dll
+C:\Users\k_shiba\Downloads\iRacingSdkWrapper-master\iRLapPos\bin\Debug\iRSDKSharp.dll
+C:\Users\k_shiba\Downloads\iRacingSdkWrapper-master\iRLapPos\bin\Debug\iRacingSdkWrapper.pdb
+C:\Users\k_shiba\Downloads\iRacingSdkWrapper-master\iRLapPos\bin\Debug\iRSDKSharp.pdb
+C:\Users\k_shiba\Downloads\iRacingSdkWrapper-master\iRLapPos\obj\Debug\iRLapPos.csprojResolveAssemblyReference.cache
+C:\Users\k_shiba\Downloads\iRacingSdkWrapper-master\iRLapPos\obj\Debug\iRLapPos.Form1.resources
+C:\Users\k_shiba\Downloads\iRacingSdkWrapper-master\iRLapPos\obj\Debug\iRLapPos.Properties.Resources.resources
+C:\Users\k_shiba\Downloads\iRacingSdkWrapper-master\iRLapPos\obj\Debug\iRLapPos.csproj.GenerateResource.Cache
+C:\Users\k_shiba\Downloads\iRacingSdkWrapper-master\iRLapPos\obj\Debug\iRLapPos.exe
+C:\Users\k_shiba\Downloads\iRacingSdkWrapper-master\iRLapPos\obj\Debug\iRLapPos.pdb

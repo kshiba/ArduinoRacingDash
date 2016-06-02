@@ -23,7 +23,7 @@ namespace iRacingSLI
             console = callConsole;
         }
 
-        public void fetch(TelemetryInfo telem, iRacingSDK sdk, double fuelVal, int brake, Boolean sendTimeReset, Boolean sendTime, double prevFuel)
+        public void fetch(TelemetryInfo telem, SdkWrapper sdk, double fuelVal, int brake, Boolean sendTimeReset, Boolean sendTime, double prevFuel)
         {           
             Gear = telem.Gear.Value;
             Speed = telem.Speed.Value;

@@ -16,6 +16,7 @@ namespace iRacingSLI
 {
     public partial class iRacingSLI : Form
     {
+        const string driverYamlPath = "DriverInfo:Drivers:CarIdx:{{{0}}}{1}:";
         private SdkWrapper wrapper;
         private connectionHelper connection;
         private configHandler cfg;
@@ -33,7 +34,7 @@ namespace iRacingSLI
         private Boolean sendTime;
         private Boolean sendTimeReset;
 
-        private String Version = "2.1.5";
+        private String Version = "2.1.6b";
         private String ArduinoVersion = "2.1.2";
 
         public iRacingSLI()
@@ -77,9 +78,13 @@ namespace iRacingSLI
             if (!hasInit)
             {
                 hasInit = true;
-                track = e.SessionInfo["WeekendInfo"]["TrackName"].Value;
-                driverID = Convert.ToInt16(e.SessionInfo["DriverInfo"]["DriverCarIdx"].Value);
-                car = e.SessionInfo["DriverInfo"]["Drivers"]["CarIdx", driverID]["CarPath"].Value;
+                track = YamlParser.Parse(e.SessionInfo, "WeekendInfo:TrackName:");
+                driverID = Convert.ToInt16(YamlParser.Parse(e.SessionInfo, "DriverInfo:DriverCarIdx:"));
+                car = YamlParser.Parse(e.SessionInfo, string.Format(driverYamlPath, driverID, "CarPath"));
+                
+                //track = e.SessionInfo["WeekendInfo"]["TrackName"].Value;
+                //driverID = Convert.ToInt16(e.SessionInfo["DriverInfo"]["DriverCarIdx"].Value);
+                //car = e.SessionInfo["DriverInfo"]["Drivers"]["CarIdx", driverID]["CarPath"].Value;
                 fuelEst = Convert.ToDouble(cfg.readSetting(track + "-" + car, "0"));
                 fuelLaps = Convert.ToInt32(cfg.readSetting(track + "-" + car + "-l", "0"));
             }
@@ -91,13 +96,13 @@ namespace iRacingSLI
             if (connection.isOpen())
             {
                 dataPacket data = new dataPacket(console);
-                data.fetch(e.TelemetryInfo, wrapper.Sdk, fuelEst, chkBrake.Checked ? brk.getBrakeVibe(e.TelemetryInfo, trkTol.Value, trkSens.Value) : 0,
+                data.fetch(e.TelemetryInfo, wrapper, fuelEst, chkBrake.Checked ? brk.getBrakeVibe(e.TelemetryInfo, trkTol.Value, trkSens.Value) : 0,
                     sendTimeReset, sendTime, prevFuel);
                 connection.send(data.compile(this.cboSpdUnit.SelectedIndex == 0, this.trkIntensity.Value));
                 sendTime = false;
                 sendTimeReset = false;
 
-                float ll = Convert.ToSingle(wrapper.Sdk.GetData("LapLastLapTime"));
+                float ll = Convert.ToSingle(wrapper.GetData("LapLastLapTime"));
 
                 if (ll != prevLapTime)
                 {
@@ -190,6 +195,9 @@ namespace iRacingSLI
                 }
                 else
                 {
+                    //wapper Restart
+                    wrapper.Stop();
+                    wrapper.Start();
                     statusLabel.Text = "Status: disconnected.";
                     telemTextBox.Clear();
                 }
@@ -198,13 +206,18 @@ namespace iRacingSLI
             {
                 if (wrapper.IsRunning)
                 {
+                    //wapper Restart
+                    wrapper.Stop();
+                    wrapper.Start();
                     statusLabel.Text = "Status: disconnected, waiting for sim...";
                     telemTextBox.Clear();
                 }
                 else
                 {
+                    //wrapper Stopped.Start wrapper
                     statusLabel.Text = "Status: disconnected";
                     telemTextBox.Clear();
+                    wrapper.Start();
                 }
             }
         }

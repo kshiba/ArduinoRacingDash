@@ -63,9 +63,9 @@
             // 
             // startButton
             // 
-            this.startButton.Location = new System.Drawing.Point(12, 12);
+            this.startButton.Location = new System.Drawing.Point(12, 11);
             this.startButton.Name = "startButton";
-            this.startButton.Size = new System.Drawing.Size(107, 23);
+            this.startButton.Size = new System.Drawing.Size(107, 21);
             this.startButton.TabIndex = 0;
             this.startButton.Text = "Start";
             this.startButton.UseVisualStyleBackColor = true;
@@ -74,12 +74,12 @@
             // consoleTextBox
             // 
             this.consoleTextBox.BackColor = System.Drawing.SystemColors.Control;
-            this.consoleTextBox.Location = new System.Drawing.Point(0, 215);
+            this.consoleTextBox.Location = new System.Drawing.Point(0, 198);
             this.consoleTextBox.Multiline = true;
             this.consoleTextBox.Name = "consoleTextBox";
             this.consoleTextBox.ReadOnly = true;
             this.consoleTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.consoleTextBox.Size = new System.Drawing.Size(397, 65);
+            this.consoleTextBox.Size = new System.Drawing.Size(397, 60);
             this.consoleTextBox.TabIndex = 0;
             // 
             // telemTextBox
@@ -87,11 +87,11 @@
             this.telemTextBox.BackColor = System.Drawing.SystemColors.Control;
             this.telemTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
             this.telemTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.telemTextBox.Location = new System.Drawing.Point(0, 13);
+            this.telemTextBox.Location = new System.Drawing.Point(0, 12);
             this.telemTextBox.Multiline = true;
             this.telemTextBox.Name = "telemTextBox";
             this.telemTextBox.ReadOnly = true;
-            this.telemTextBox.Size = new System.Drawing.Size(406, 269);
+            this.telemTextBox.Size = new System.Drawing.Size(406, 248);
             this.telemTextBox.TabIndex = 2;
             // 
             // splitContainer1
@@ -99,7 +99,7 @@
             this.splitContainer1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.splitContainer1.Location = new System.Drawing.Point(12, 41);
+            this.splitContainer1.Location = new System.Drawing.Point(12, 38);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -119,14 +119,14 @@
             this.splitContainer1.Panel2.Controls.Add(this.chkTelem);
             this.splitContainer1.Panel2.Controls.Add(this.telemTextBox);
             this.splitContainer1.Panel2.Controls.Add(this.telemetryLabel);
-            this.splitContainer1.Size = new System.Drawing.Size(807, 282);
+            this.splitContainer1.Size = new System.Drawing.Size(807, 260);
             this.splitContainer1.SplitterDistance = 397;
             this.splitContainer1.TabIndex = 3;
             // 
             // chkBrake
             // 
             this.chkBrake.AutoSize = true;
-            this.chkBrake.Location = new System.Drawing.Point(30, 104);
+            this.chkBrake.Location = new System.Drawing.Point(30, 96);
             this.chkBrake.Name = "chkBrake";
             this.chkBrake.Size = new System.Drawing.Size(15, 14);
             this.chkBrake.TabIndex = 14;
@@ -142,9 +142,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.trkTol);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox1.Location = new System.Drawing.Point(51, 94);
+            this.groupBox1.Location = new System.Drawing.Point(51, 87);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(297, 100);
+            this.groupBox1.Size = new System.Drawing.Size(297, 92);
             this.groupBox1.TabIndex = 13;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Brake Vibe Settings";
@@ -152,36 +152,36 @@
             // lblSens
             // 
             this.lblSens.AutoSize = true;
-            this.lblSens.Location = new System.Drawing.Point(15, 74);
+            this.lblSens.Location = new System.Drawing.Point(15, 68);
             this.lblSens.Name = "lblSens";
-            this.lblSens.Size = new System.Drawing.Size(19, 13);
+            this.lblSens.Size = new System.Drawing.Size(19, 12);
             this.lblSens.TabIndex = 17;
             this.lblSens.Text = "(3)";
             // 
             // lblTol
             // 
             this.lblTol.AutoSize = true;
-            this.lblTol.Location = new System.Drawing.Point(15, 37);
+            this.lblTol.Location = new System.Drawing.Point(15, 34);
             this.lblTol.Name = "lblTol";
-            this.lblTol.Size = new System.Drawing.Size(33, 13);
+            this.lblTol.Size = new System.Drawing.Size(31, 12);
             this.lblTol.TabIndex = 16;
             this.lblTol.Text = "(30%)";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(15, 61);
+            this.label3.Location = new System.Drawing.Point(15, 56);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 13);
+            this.label3.Size = new System.Drawing.Size(59, 12);
             this.label3.TabIndex = 15;
             this.label3.Text = "Sensitivity";
             // 
             // trkSens
             // 
             this.trkSens.AutoSize = false;
-            this.trkSens.Location = new System.Drawing.Point(103, 57);
+            this.trkSens.Location = new System.Drawing.Point(103, 53);
             this.trkSens.Name = "trkSens";
-            this.trkSens.Size = new System.Drawing.Size(179, 37);
+            this.trkSens.Size = new System.Drawing.Size(179, 34);
             this.trkSens.TabIndex = 14;
             this.trkSens.Tag = "";
             this.trkSens.Value = 3;
@@ -190,15 +190,15 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 23);
+            this.label1.Location = new System.Drawing.Point(15, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(86, 13);
+            this.label1.Size = new System.Drawing.Size(89, 12);
             this.label1.TabIndex = 13;
             this.label1.Text = "Brake Tolerance";
             // 
             // trkTol
             // 
-            this.trkTol.Location = new System.Drawing.Point(103, 19);
+            this.trkTol.Location = new System.Drawing.Point(103, 18);
             this.trkTol.Maximum = 100;
             this.trkTol.Name = "trkTol";
             this.trkTol.Size = new System.Drawing.Size(179, 45);
@@ -211,15 +211,15 @@
             // lblIntensity
             // 
             this.lblIntensity.AutoSize = true;
-            this.lblIntensity.Location = new System.Drawing.Point(32, 57);
+            this.lblIntensity.Location = new System.Drawing.Point(32, 53);
             this.lblIntensity.Name = "lblIntensity";
-            this.lblIntensity.Size = new System.Drawing.Size(49, 13);
+            this.lblIntensity.Size = new System.Drawing.Size(51, 12);
             this.lblIntensity.TabIndex = 6;
             this.lblIntensity.Text = "Intensity:";
             // 
             // trkIntensity
             // 
-            this.trkIntensity.Location = new System.Drawing.Point(87, 52);
+            this.trkIntensity.Location = new System.Drawing.Point(87, 48);
             this.trkIntensity.Maximum = 7;
             this.trkIntensity.Name = "trkIntensity";
             this.trkIntensity.Size = new System.Drawing.Size(104, 45);
@@ -229,9 +229,9 @@
             // lblSpdUnit
             // 
             this.lblSpdUnit.AutoSize = true;
-            this.lblSpdUnit.Location = new System.Drawing.Point(30, 28);
+            this.lblSpdUnit.Location = new System.Drawing.Point(30, 26);
             this.lblSpdUnit.Name = "lblSpdUnit";
-            this.lblSpdUnit.Size = new System.Drawing.Size(60, 13);
+            this.lblSpdUnit.Size = new System.Drawing.Size(59, 12);
             this.lblSpdUnit.TabIndex = 4;
             this.lblSpdUnit.Text = "SpeedUnit:";
             // 
@@ -241,18 +241,18 @@
             this.cboSpdUnit.Items.AddRange(new object[] {
             "MPH",
             "KPH"});
-            this.cboSpdUnit.Location = new System.Drawing.Point(96, 25);
+            this.cboSpdUnit.Location = new System.Drawing.Point(96, 23);
             this.cboSpdUnit.Name = "cboSpdUnit";
-            this.cboSpdUnit.Size = new System.Drawing.Size(59, 21);
+            this.cboSpdUnit.Size = new System.Drawing.Size(59, 20);
             this.cboSpdUnit.TabIndex = 3;
             this.cboSpdUnit.SelectedIndexChanged += new System.EventHandler(this.cboSpdUnit_SelectedIndexChanged);
             // 
             // consoleLabel
             // 
             this.consoleLabel.AutoSize = true;
-            this.consoleLabel.Location = new System.Drawing.Point(0, 199);
+            this.consoleLabel.Location = new System.Drawing.Point(0, 184);
             this.consoleLabel.Name = "consoleLabel";
-            this.consoleLabel.Size = new System.Drawing.Size(45, 13);
+            this.consoleLabel.Size = new System.Drawing.Size(46, 12);
             this.consoleLabel.TabIndex = 2;
             this.consoleLabel.Text = "Console";
             // 
@@ -262,14 +262,14 @@
             this.settingsLabel.Dock = System.Windows.Forms.DockStyle.Top;
             this.settingsLabel.Location = new System.Drawing.Point(0, 0);
             this.settingsLabel.Name = "settingsLabel";
-            this.settingsLabel.Size = new System.Drawing.Size(45, 13);
+            this.settingsLabel.Size = new System.Drawing.Size(47, 12);
             this.settingsLabel.TabIndex = 1;
             this.settingsLabel.Text = "Settings";
             // 
             // chkTelem
             // 
             this.chkTelem.AutoSize = true;
-            this.chkTelem.Location = new System.Drawing.Point(388, 16);
+            this.chkTelem.Location = new System.Drawing.Point(388, 15);
             this.chkTelem.Name = "chkTelem";
             this.chkTelem.Size = new System.Drawing.Size(15, 14);
             this.chkTelem.TabIndex = 15;
@@ -282,33 +282,33 @@
             this.telemetryLabel.Dock = System.Windows.Forms.DockStyle.Top;
             this.telemetryLabel.Location = new System.Drawing.Point(0, 0);
             this.telemetryLabel.Name = "telemetryLabel";
-            this.telemetryLabel.Size = new System.Drawing.Size(53, 13);
+            this.telemetryLabel.Size = new System.Drawing.Size(56, 12);
             this.telemetryLabel.TabIndex = 3;
             this.telemetryLabel.Text = "Telemetry";
             // 
             // statusLabel
             // 
             this.statusLabel.AutoSize = true;
-            this.statusLabel.Location = new System.Drawing.Point(549, 17);
+            this.statusLabel.Location = new System.Drawing.Point(549, 16);
             this.statusLabel.Name = "statusLabel";
-            this.statusLabel.Size = new System.Drawing.Size(40, 13);
+            this.statusLabel.Size = new System.Drawing.Size(40, 12);
             this.statusLabel.TabIndex = 4;
             this.statusLabel.Text = "Status:";
             // 
             // cboPorts
             // 
             this.cboPorts.FormattingEnabled = true;
-            this.cboPorts.Location = new System.Drawing.Point(147, 13);
+            this.cboPorts.Location = new System.Drawing.Point(147, 12);
             this.cboPorts.Name = "cboPorts";
-            this.cboPorts.Size = new System.Drawing.Size(200, 21);
+            this.cboPorts.Size = new System.Drawing.Size(200, 20);
             this.cboPorts.TabIndex = 5;
             this.cboPorts.SelectedIndexChanged += new System.EventHandler(this.cboPorts_SelectedIndexChanged);
             // 
             // btnDefault
             // 
-            this.btnDefault.Location = new System.Drawing.Point(353, 11);
+            this.btnDefault.Location = new System.Drawing.Point(353, 10);
             this.btnDefault.Name = "btnDefault";
-            this.btnDefault.Size = new System.Drawing.Size(93, 23);
+            this.btnDefault.Size = new System.Drawing.Size(93, 21);
             this.btnDefault.TabIndex = 6;
             this.btnDefault.Text = "Set Defualt";
             this.btnDefault.UseVisualStyleBackColor = true;
@@ -316,9 +316,9 @@
             // 
             // iRacingSLI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(831, 336);
+            this.ClientSize = new System.Drawing.Size(831, 310);
             this.Controls.Add(this.btnDefault);
             this.Controls.Add(this.cboPorts);
             this.Controls.Add(this.statusLabel);

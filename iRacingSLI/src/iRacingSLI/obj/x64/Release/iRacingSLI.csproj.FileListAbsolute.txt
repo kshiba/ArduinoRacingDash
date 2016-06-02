@@ -1,0 +1,13 @@
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\bin\x64\Release\iRacingSLI.exe.config
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\bin\x64\Release\iRacingSLI.exe
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\bin\x64\Release\iRacingSLI.pdb
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\bin\x64\Release\iRacingSdkWrapper.dll
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\bin\x64\Release\iRSDKSharp.dll
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\bin\x64\Release\iRacingSdkWrapper.pdb
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\bin\x64\Release\iRSDKSharp.pdb
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\obj\x64\Release\iRacingSLI.csprojResolveAssemblyReference.cache
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\obj\x64\Release\iRacingSLI.iRacingSLI.resources
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\obj\x64\Release\iRacingSLI.Properties.Resources.resources
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\obj\x64\Release\iRacingSLI.csproj.GenerateResource.Cache
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\obj\x64\Release\iRacingSLI.exe
+C:\Users\k_shiba\Downloads\ArduinoRacingDash-master\iRacingSLI\src\iRacingSLI\obj\x64\Release\iRacingSLI.pdb
