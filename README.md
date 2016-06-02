@@ -1,8 +1,11 @@
-##Arduino Racing Dashboard
 **Modified from Original Version:** v2.1.5 -Tested for iRacing
 
 Update iRacingSdkWrapper and Fixed iRSLI to compiled with the latest version..
 Added Teensy and ili9341c LCD Scketch.
+
+Original Readme is below
+
+##Arduino Racing Dashboard
 
 **Latest Version:** v2.1.5 - Tested for Asseto Corsa v1.3
 
