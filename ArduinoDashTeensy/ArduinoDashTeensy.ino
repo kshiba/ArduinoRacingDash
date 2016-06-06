@@ -25,7 +25,6 @@
 
 //joystick Setting;
 #define BTNNum 17
-#define BTNRefleshRate 15  //msec
 #define BTN_OFF 0
 #define BTN_ON 1
 #define MAXBTN 32
@@ -33,7 +32,8 @@
 #define ENCNum 3
 #define ENC_CW 0
 #define ENC_CCW 1
-#define ENC_BTN_ON 30
+#define ENC_BTN_ON 30 //ms
+#define ENC_BTN_OFF_SPAN 250 //us
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(LEDmax, LEDpin, NEO_RGB + NEO_KHZ800);
 ILI9341_t3 tft = ILI9341_t3(_cs, _dc, _rst);
@@ -223,11 +223,6 @@ void lcdUpdate() {
       refleshCount = 0;
       break;
   }
-  //update button status
-  if (btnRefresh - millis() > BTNRefleshRate ) {
-    btnRefresh = millis();
-
-  }
 }
 
 void displayLapTime() {
@@ -394,7 +389,6 @@ void setShiftLight(int eg, int sf) {
 void initLCD() {
   //initialize LCD data and Test
   tft.begin();
-  tft.fillScreen(ILI9341_BLACK);
   strip.begin();
   tft.setRotation(3);
   tft.fillScreen(ILI9341_BLACK);
@@ -454,7 +448,7 @@ void initLCD() {
   LCDGear(7);
   LCDRPM(0);
   LCDSPD(0);
-  LEDLight(7);
+  LEDLight(8);
   LCDLAP(0);
   displayLapTime();
 
@@ -484,7 +478,7 @@ void EncChk(int num) {
     // to off if before Count is still on
     Joystick.button(encJNum[ENC_CW][num], 0);
     Joystick.button(encJNum[ENC_CCW][num], 0);
-    delayMicroseconds(250);
+    delayMicroseconds(ENC_BTN_OFF_SPAN);
     if (value > encCurrntPos[num])
       Joystick.button(encJNum[ENC_CW][num], 1);
     if (value < encCurrntPos[num])
